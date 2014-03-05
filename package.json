@@ -1,0 +1,31 @@
+{
+  "name": "koa-hello-world",
+  "version": "0.0.0",
+  "description": "Example node.js koa app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "test": "mocha --harmony test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anrim/koa-hello-world.git"
+  },
+  "keywords": [
+    "node.js",
+    "koa"
+  ],
+  "author": "anrim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anrim/koa-hello-world/issues"
+  },
+  "homepage": "https://github.com/anrim/koa-hello-world",
+  "dependencies": {
+    "koa": "~0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "supertest": "~0.9.0"
+  }
+}
